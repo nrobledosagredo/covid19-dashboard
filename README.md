@@ -1,7 +1,7 @@
 # Dashboard interactivo COVID-19
 
-![Python](https://img.shields.io/badge/language-Python-blue)
-![Data Visualization](https://img.shields.io/badge/topic-Data%20Visualization-green)
+![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![image](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 
 Dashboard interactivo para visualizar la evolución de los casos confirmados, recuperados y decesos por COVID-19 en distintos países, utilizando gráficos dinámicos.
 Este proyecto utiliza **Jupyter Notebooks** y **Voila** para crear un dashboard interactivo que permite comparar la evolución de la pandemia en diferentes países. Los usuarios pueden elegir entre mostrar **casos acumulados** o **casos nuevos**.
