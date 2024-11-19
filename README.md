@@ -1,4 +1,4 @@
-# Dashboard interactivo COVID-19
+# COVID-19 dashboard
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -6,20 +6,21 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-Dashboard interactivo para visualizar la evolución de los casos confirmados, recuperados y decesos por COVID-19 en distintos países, utilizando gráficos dinámicos.
-Este proyecto utiliza **Jupyter Notebooks** y **Voila** para crear un dashboard interactivo que permite comparar la evolución de la pandemia en diferentes países. Los usuarios pueden elegir entre mostrar **casos acumulados** o **casos nuevos**.
+This dashboard visualizes the progression of confirmed cases, recoveries, and deaths due to COVID-19 in various countries. It uses **Jupyter Notebooks** and **Voila** to provide dynamic graphs for comparing pandemic trends between countries. Users can toggle between viewing **cumulative cases** or **daily new cases**.  
 
-## Funcionalidades
+Created as a learning project to explore data visualization and dashboards.  
 
-- Visualización interactiva de **casos confirmados**, **recuperados** y **decesos**.
-- Comparación de datos entre dos países.
-- Opciones de visualización por **casos acumulados** o **casos nuevos**.
-- Basado en datos de COVID-19 de diversas fuentes.
+## Features  
 
-## Requisitos
+- Visualization of **confirmed cases**, **recoveries**, and **deaths**.  
+- Country-to-country data comparison.  
+- Toggle options for **cumulative cases** or **new daily cases**.  
+- COVID-19 data sourced from multiple reliable repositories.  
 
-- **Python 3.8.5** o superior.
-- Dependencias incluidas en `requirements.txt`:
+## Requirements  
+
+- **Python 3.8.5** or higher.  
+- Required dependencies:
    ```text
    pytest
    numpy
@@ -29,14 +30,14 @@ Este proyecto utiliza **Jupyter Notebooks** y **Voila** para crear un dashboard 
    voila
    voila-material
    mplcursors
-  ```
+   ```  
 
-## Ejecución
+## How to run  
 
-Para ejecutar el dashboard en tu máquina local, usa el siguiente comando:
+To run the dashboard locally, execute the following command:  
 
 ```bash
-voila --port=8866 --Voila.ip=0.0.0.0 --no-browser --template=material notebooks/tu_archivo.ipynb
-```
+voila --port=8866 --Voila.ip=0.0.0.0 --no-browser --template=material covid19-dashboard.ipynb
+```  
 
-El dashboard estará disponible en http://localhost:8866.
+The dashboard will be accessible at [http://localhost:8866](http://localhost:8866).  
