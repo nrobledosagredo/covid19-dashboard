@@ -6,38 +6,34 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-This dashboard visualizes the progression of confirmed cases, recoveries, and deaths due to COVID-19 in various countries. It uses **Jupyter Notebooks** and **Voila** to provide dynamic graphs for comparing pandemic trends between countries. Users can toggle between viewing **cumulative cases** or **daily new cases**.  
+## Overview
+
+This dashboard visualizes the progression of confirmed cases, recoveries, and deaths due to COVID-19 in various countries. It uses Jupyter Notebook and Voila to provide dynamic graphs for comparing pandemic trends between countries. Users can toggle between viewing cumulative cases or **daily new cases.  
 
 Created as a learning project to explore data visualization and dashboards.  
 
 ## Features  
 
-- Visualization of **confirmed cases**, **recoveries**, and **deaths**.  
+- Visualization of confirmed cases, recoveries, and deaths.  
 - Country-to-country data comparison.  
-- Toggle options for **cumulative cases** or **new daily cases**.  
+- Toggle options for cumulative cases or new daily cases.  
 - COVID-19 data sourced from multiple reliable repositories.  
 
-## Requirements  
+## Prerequisites
 
-- **Python 3.8.5** or higher.  
-- Required dependencies:
-   ```text
-   pytest
-   numpy
-   matplotlib
-   ipympl
-   pandas
-   voila
-   voila-material
-   mplcursors
-   ```  
+* Python >= 3.8.5
+* Dependencies:
 
-## How to run  
+    ```bash
+    pip install pytest numpy matplotlib ipympl pandas voila voila-material mplcursors
+    ```
 
-To run the dashboard locally, execute the following command:  
+## Setup
 
-```bash
-voila --port=8866 --Voila.ip=0.0.0.0 --no-browser --template=material covid19-dashboard.ipynb
-```  
+1.  **Execute the following command:**
 
-The dashboard will be accessible at [http://localhost:8866](http://localhost:8866).  
+    ```bash
+    voila --port=8866 --Voila.ip=0.0.0.0 --no-browser --template=material covid19-dashboard.ipynb
+    ```
+
+2.  **Access the dashboard:** The dashboard will be accessible at [http://localhost:8866](http://localhost:8866).
